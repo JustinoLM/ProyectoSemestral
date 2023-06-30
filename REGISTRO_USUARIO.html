@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SoloCiencia Registro de usuarios</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css"/>
+   
+</head>
+<body>
+
+    <div class="logo">
+      <a href="HOME.html">
+        <img src="Logos/Logo_uni_negro.png">
+      </a>
+    </div>
+    <h2>Registro de usuarios</h2>
+        
+        <form action="REG_USUARIO.jsp" method="get">
+            <label for="firstname">Nombre:</label>
+            <input type="text" id="firstname" name="firstname" required>
+            <br>
+            <label for="lastname">Apellido:</label>
+            <input type="text" id="lastname" name="lastname" required>
+            <br>
+            <label for="age">Edad:</label>
+            <input type="number" id="age" name="age" min="13" max="99" required>
+            <br>
+            <label for="username">Nombre de usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <input type="submit" value="Registrarse">
+        </form>
+    
+</body>
+</html>

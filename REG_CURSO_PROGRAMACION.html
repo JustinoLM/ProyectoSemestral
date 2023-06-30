@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Programacion</title>
+  <link href="estilos.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="HOME.html">
+        <img src="Logos/Logo_uni_negro.png">
+      </a>
+    </div>
+
+    <h1>SOLOCIENCIA</h1>
+
+    <div class="logo" id="iconos">
+      <a href="GOOGLE.COM">
+        <img src="Logos/icono de GOOGLE">
+      </a>
+    </div>
+
+    <div class="logo" id="iconos">
+      <a href="INSTAGRAM">
+        <img src="Logos/icono de INSTAGRAM">
+      </a>
+    </div>
+
+    <div class="logo" id="iconos">
+      <a href="FACEBOOK">
+        <img src="Logos/icono de FACEBOOK">
+      </a>
+    </div>
+  </header>
+
+  <nav>
+    <div class="nav-celda" id="home">
+      <a href="HOME.html">
+        <h4>HOME</h4>
+      </a>
+    </div>
+
+    <div class="nav-celda">
+      <a href="REG_CIENCIAS_NATURALES.html">
+        <h4>Registrarse en el Curso de Ciencias Naturales</h4>
+      </a>
+    </div>
+
+    <div class="nav-celda">
+      <a href="REG_QUIMICA_BIOLOGIA.html">
+        <h4>Registrarse en el Curso de Química y Biología </h4>
+      </a>
+    </div>
+
+    <div class="nav-celda-pagina">
+      <a href="REG_CURSO_PROGRAMACION.html">
+        <h4>Registrarse en el Curso de programación</h4>
+      </a>
+    </div>
+
+    <div class="nav-celda">
+      <a href="REFERENCIAS.html">
+        <h4>Referencias</h4>
+      </a>
+    </div>
+
+    <div class="nav-celda">
+      <a href="CONTACTANOS.html">
+        <h4>Contactanos</h4>
+      </a>
+    </div>
+  </nav>
+
+  <section class="registros">
+
+    <h2>Registro al Curso de Programacion</h2>
+  <form action="REG_C_PROGRAMACION_PROCESS.jsp" method="get">
+    <label for="nombre">Nombre del participante:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+    
+    <label for="cedula">Cédula:</label>
+    <input type="text" id="cedula" name="cedula" required><br><br>
+    <label>(formato: 00-0000-0000)</label><br><br>
+    
+    <label for="fecha_inicio">Fecha de inicio del curso:</label><br>
+    <input type="radio" id="20julio" name="fecha_inicio" value="2023/7/20" required>
+    <label for="20julio">20 de julio</label><br>
+    
+    <input type="radio" id="24octubre" name="fecha_inicio" value="2023/10/24" required>
+    <label for="inicio_octubre">24 de octubre</label><br>
+    
+    <input type="radio" id="14noviembre" name="fecha_inicio" value="2023/11/14" required>
+    <label for="inicio_noviembre">14 de noviembre</label><br><br>
+    
+    <input type="submit" value="Enviar">
+  </form>
+  </section>
+
+
+
+  <footer>
+    <div class="logo-footer">
+      <a href="HOME.html">
+        <img src="logos/logo_solo_ciencia_2.png">
+      </a>
+    </div>
+
+    <ul>
+      <li><a href="HOME.html">Inicio</a></li>
+      <li><a href="REG_CIENCIAS_NATURALES.html">Registro al curso de ciencias naturales</a></li>
+      <li><a href="REG_QUIMICA_BIOLOGIA.html">Registro al curso de química y biología</a></li>
+      <li><a href="REFERENCIAS.html">Referencias</a></li>
+      <li><a href="CONTACTANOS.html">Contactanos</a></li>
+      <li><a href="LOGIN_USUARIO.html">Log Out</a></li>
+      <li>Copyright (c) 2023 Solo Ciencia</li>
+      <li>All Rights Reserved</li>
+    </ul>
+  </footer>
+</body>
+</html>
