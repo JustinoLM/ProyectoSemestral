@@ -1,0 +1,65 @@
+/* Cuerpo principal de una form */
+main form{
+    font-family: 'Open Sans', sans-serif; /* Tipo de letra diferente al body */
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alineación en ambos ejes */
+    justify-content: center;
+    border: 0.5rem solid #333;
+    border-radius: 2.3rem;
+    padding: 6rem;
+    box-shadow: -0.7rem 0.7rem RGBA(51,51,51,0.7); /* Sobra del contenedor cool-looking */
+    margin: 2.8rem; /* Alejo el contenedor de las esquinas */
+    background-color: RGBA(246,246,246,1); /* Evita que las tarjetas de registro sean transparentes */
+    color: RGBA(20,20,20,1);  /*Color del texto diferente al body*/
+}
+main div{
+    margin-bottom: 3rem; /*Espacio entre cada div de la tarjeta*/
+}
+
+/*Modificar los input del forms*/
+input{
+    border: 0.35rem solid #ccc;
+    border-radius: 1rem;
+    padding: 0.5rem 0.7rem;
+    display: block;
+}
+
+form input[type='submit']{
+    width: fit-content;
+    border-width: 0.3rem;
+    transition: background-color 0.5s ease;
+}
+
+form input[type='submit']:active{
+    background-color: rgba(30, 144, 255, 0.7);
+}
+.form-radio{
+    align-self: self-start; /*Me gustan más sobreescribir su posición a la inicial*/
+}
+input[type='radio']{
+    display: inline-block; /*Me permite colocar el texto a lado del botón*/
+}
+.form-radio label:first-of-type{
+    margin-bottom: 0.7rem; /*Distancia entre el primer label y el resto del contenido*/
+}
+
+.form-radio input{
+    margin-right: 0.8rem; /*Distancia vertical entre los radio inputs*/
+}
+
+/*Título de la tarjeta*/
+h2{
+    font-size:2.5rem;
+    text-align: center;
+    margin:0 0 1rem 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Tamaño del link de la página de login*/
+main a{
+    font-size: 1.6rem;
+}
+
+
