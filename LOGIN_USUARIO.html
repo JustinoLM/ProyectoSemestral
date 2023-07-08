@@ -1,43 +1,44 @@
 <html>
-<head>
+  <head>
     <title>solociencia loggin</title>
-        <link href="estilos.css" rel="stylesheet" type="text/css"/>
-</head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="normalize.css" />
+    <link href="HOME.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="Forms.css" />
+  </head>
 
-<body>
-
-    <section class="registros">
-        <div class="logo">
-    <a href="HOME.html">
-        <img src="Logos/Logo_uni_negro.png">
-    </a>
-</div>
-
-<h2>SOLOCIENCIA.COM</h2>
-
-<form action="LOGIN_PROCESS.jsp" method="post">
-    <label for="username">Nombre de usuario:</label>
-    <input type="text" id="username" name="username" required><br><br>
-    <label for="password">Contraseña:</label>
-    <input type="password" id="password" name="password" required><br><br>
-    <input type="submit" value="Iniciar sesión">
-</form>
-<a href="REGISTRO_USUARIO.html">No tienes cuenta?</a>
-<div class="logo" id="iconos">
-    <a href="INSTAGRAM">
-        <img src="Logos/icono de INSTAGRAM">
-    </a>
-</div>
-
-    <div class="logo" id="iconos">
-      <a href="FACEBOOK">
-        <img src="Logos/icono de FACEBOOK">
-      </a>
-    </div>
-        
-
+  <body>
+    <section class="SoloCienciaLogo">
+      <img src="logos/SoloCiencia_logo.png" alt="Logo" />
     </section>
 
-</body>
+    <main>
+      <form action="LOGIN_PROCESS.jsp" method="get">
+        <div class="form-group">
+          <h2>Ingresa ya!</h2>
+        </div>
+        <div class="form-group">
+          <label for="username">Nombre de usuario:</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Contraseña:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <input type="submit" value="Iniciar sesión" />
+      </form>
+      <br />
+      <section class="logos">
+          <div class="logo">
+            <a href="https://www.instagram.com/solocienciaya/" target="_blank"><img src="logos/instagram_logo.png" alt="Logo 2" /></a>
+          </div>
+          <div class="logo">
+            <a href="https://www.instagram.com/solocienciaya/" target="_blank"><img src="logos/facebook_logo.png" alt="Logo 3" /></a> 
+          </div>
 
+        </section>
+      <br />
+      <a href="REGISTRO_USUARIO.html">No tienes cuenta?</a>
+    </main>
+  </body>
 </html>

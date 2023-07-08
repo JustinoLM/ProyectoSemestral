@@ -1,0 +1,50 @@
+main form{
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 0.5rem solid #333;
+    border-radius: 2.3rem;
+    padding: 6rem;
+    box-shadow: -0.7rem 0.7rem RGBA(51,51,51,0.7);
+    margin: 2.8rem;  
+}
+main div{
+    margin-bottom: 3rem;
+}
+
+input{
+    border: 0.35rem solid #ccc;
+    border-radius: 1rem;
+    padding: 0.5rem 0.7rem;
+    display: block;
+}
+
+form input[type='submit']{
+    width: fit-content;
+    border-width: 0.3rem;
+}
+.form-radio{
+    align-self: self-start;
+}
+input[type='radio']{
+    display: inline-block;
+}
+.form-radio label:first-of-type{
+    margin-bottom: 0.7rem;
+}
+
+.form-radio input{
+    margin-right: 0.8rem;
+}
+h2{
+    font-size:2.5rem;
+    text-align: center;
+    margin:0 0 1rem 0;
+}
+main a{
+    font-size: 1.6rem;
+}
+
+
